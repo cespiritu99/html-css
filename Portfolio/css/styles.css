@@ -4,13 +4,14 @@ body{
 }
 header{
     font-size: 20px;
+    padding-top: 1%;
 }
 li{
-    width: 200px;
+    width: 230px;
     text-align: center;
 }
 .navbar{
-    padding: 0px 20%;
+    padding: 0px 15%;
 }
 .nav-link{
     color: #4B4B4B !important;
@@ -23,7 +24,7 @@ h1{
     font-weight: 900;
     font-size: 55px;
 }
-h3{
+#contacto h3{
     font-weight: 700;
     font-size: 30px;
 }
@@ -60,10 +61,57 @@ footer a{
     font-size: 35px;
     font-weight: bold;
 }
-/*Proyectos*/
+/*PROYECTOS*/
 .proyectos img{
     height: 260px;
     width: 100%;
 }
-
-
+/*INICIO*/
+.fondo{
+    background-image: url(../images/FondosMenu.png);
+    background-repeat: repeat;
+    background-size: 100%;
+    min-height: 550px;
+}
+/*SOBRE MI*/
+#sobre-mi h1{
+    font-size: 33px;
+}
+.img-circle {
+    margin: 1em auto;
+    display: block;
+    filter: grayscale(100%);
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: inset 5px 5px 10px 0px rgba(209,209,209,0.63);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+section i{
+    background-color: black;
+    color: white;
+    padding: 40px;
+    font-size: 60px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#sobre-mi h3{
+    font-size: 20px;
+    font-weight: 800;
+}
+#sobre-mi p{
+    font-size: 18px;
+}
+/*experiencia laboral*/
+#experiencia{
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+#experiencia h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+#experiencia h3{
+    font-size: 18px;
+}
